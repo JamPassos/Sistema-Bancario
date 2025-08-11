@@ -1,41 +1,47 @@
-Sistema Bancário
+💳 Sistema Bancário em Java
 
-Descrição do Projeto
+Este projeto tem como objetivo simular as operações básicas de uma conta bancária através do console, permitindo interação com o usuário por meio de um menu de opções simples e funcional.
+🛠 Etapa 1 — Funcionalidades do Sistema
 
-Este projeto é um sistema bancário simples, desenvolvido como parte dos requisitos de um trabalho acadêmico, utilizando Java. O programa simula as operações essenciais de uma conta bancária, permitindo ao usuário interagir com o sistema através de um menu de opções, tudo executado diretamente no console.
+    Consultar Saldo
 
-Funcionalidades
+        Exibe o saldo atual formatado com duas casas decimais.
 
-O sistema oferece as seguintes funcionalidades principais, conforme implementado no código:
+    Depositar
 
-    Consultar Saldo: Permite ao usuário visualizar o saldo atual de sua conta, formatado com duas casas decimais.
+        Adiciona um valor ao saldo.
 
-    Depositar: Habilita o depósito de um valor na conta. O programa verifica se o valor a ser depositado é negativo, rejeitando a operação caso seja.
+        Bloqueia depósitos com valores negativos.
 
-    Sacar: Permite a retirada de um valor da conta. Esta operação inclui duas validações importantes:
+    Sacar
 
-        Verifica se o saldo é suficiente para cobrir o valor do saque.
+        Retira um valor do saldo, com validações:
 
-        Verifica se o valor do saque não é negativo.
+            Saldo suficiente para a operação.
 
-    Sair: Encerra a execução do programa, exibindo uma mensagem de agradecimento.
+            Valor não pode ser negativo.
 
-Como Executar:
+    Sair
 
-Para rodar o projeto, basta compilar e executar o arquivo Main.java em um ambiente Java.
-Bash
+        Encerra o programa exibindo mensagem de agradecimento.
+
+📦 Etapa 2 — Estrutura do Código
+
+    Classe Principal: Main
+
+    Métodos implementados:
+
+        main(String[] args) — Controla o fluxo do programa e o menu interativo.
+
+        mostrarSaldo(double saldo) — Exibe o saldo formatado.
+
+        depositar() — Solicita valor, valida e retorna quantia para adicionar ao saldo.
+
+        sacar(double saldo) — Solicita valor, valida e retorna quantia para subtrair do saldo.
+
+▶️ Etapa 3 — Como Executar
+
+Para rodar o projeto, certifique-se de ter o Java instalado.
 
 javac Main.java
 java Main
-
-Estrutura do Código
-
-O código está organizado em uma única classe Main com os seguintes métodos:
-
-    main(String[] args): O ponto de entrada do programa, que controla o fluxo principal através de um while loop e um switch para o menu de opções.
-
-    mostrarSaldo(double saldo): Exibe o saldo atual do usuário de forma formatada.
-
-    depositar(): Solicita um valor para depósito, realiza a validação de valor negativo e retorna o valor a ser adicionado ao saldo.
-
-    sacar(double saldo): Solicita um valor para saque, realiza as validações de saldo insuficiente e valor negativo, e retorna o valor a ser subtraído do saldo.
