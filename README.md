@@ -1,5 +1,5 @@
- Sistema Bancário em Java
-
+ Sistema Bancário
+ 
 Este projeto tem como objetivo simular as operações básicas de uma conta bancária através do console, permitindo interação com o usuário por meio de um menu de opções simples e funcional.
 
 🛠 Etapa 1 — Funcionalidades do Sistema
