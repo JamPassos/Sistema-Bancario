@@ -2,7 +2,7 @@
  
 Este projeto tem como objetivo simular as operações básicas de uma conta bancária através do console, permitindo interação com o usuário por meio de um menu de opções simples e funcional.
 
-🛠 Etapa 1 — Funcionalidades do Sistema
+Funcionalidades do Sistema
 
     Consultar Saldo
 
@@ -27,7 +27,7 @@ Este projeto tem como objetivo simular as operações básicas de uma conta banc
         Encerra o programa exibindo mensagem de agradecimento.
 
 
-📦 Etapa 2 — Estrutura do Código
+Estrutura do Código
 
     Classe Principal: Main
 
@@ -41,7 +41,3 @@ Este projeto tem como objetivo simular as operações básicas de uma conta banc
 
         sacar(double saldo) — Solicita valor, valida e retorna quantia para subtrair do saldo.
 
-Para rodar o projeto, certifique-se de ter o Java instalado.
-
-javac Main.java
-java Main
