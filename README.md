@@ -1,43 +1,22 @@
- Sistema Bancário
- 
-Este projeto tem como objetivo simular as operações básicas de uma conta bancária através do console, permitindo interação com o usuário por meio de um menu de opções simples e funcional.
+# Sistema Bancário
 
-Funcionalidades do Sistema
+#### Este projeto tem como objetivo simular as operações básicas de uma conta bancária através do console, permitindo interação com o usuário por meio de um menu de opções simples e funcional.
 
-    Consultar Saldo
+### Funcionalidades do Sistema:
 
-        Exibe o saldo atual formatado com duas casas decimais.
+### 1. Consultar Saldo
+- Exibe o saldo atual formatado com **duas casas decimais**.
 
-    Depositar
+### 2. Depositar
+- Adiciona um valor ao saldo.
+- **Validação:** depósitos com valores negativos não são permitidos.
 
-        Adiciona um valor ao saldo.
+### 3. Sacar
+- Retira um valor do saldo.
+- **Validações:**
+  - É necessário ter saldo suficiente para a operação.
+  - O valor não pode ser negativo.
 
-        Bloqueia depósitos com valores negativos.
-
-    Sacar
-
-        Retira um valor do saldo, com validações:
-
-            Saldo suficiente para a operação.
-
-            Valor não pode ser negativo.
-
-    Sair
-
-        Encerra o programa exibindo mensagem de agradecimento.
-
-
-Estrutura do Código
-
-    Classe Principal: Main
-
-    Métodos implementados:
-
-        main(String[] args) — Controla o fluxo do programa e o menu interativo.
-
-        mostrarSaldo(double saldo) — Exibe o saldo formatado.
-
-        depositar() — Solicita valor, valida e retorna quantia para adicionar ao saldo.
-
-        sacar(double saldo) — Solicita valor, valida e retorna quantia para subtrair do saldo.
-
+### 4. Sair
+- Encerra o programa.
+- Exibe uma mensagem de agradecimento ao usuário.
